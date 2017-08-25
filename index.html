@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            
+            <!-- Initial screen -->
+            <div class="applicant-container">
+                <h1>Who pays the bill?</h1>
+                <div class="applicant-input">
+                    <input type="text" name="" id="applicant-value" placeholder="Enter Applicant">
+                    <span id="add-applicant">Add</span>
+                </div>
+                <span class="duplicate">That name already exists</span>
+                <div class="applicant-list">
+                    <h5>Who is participating?</h5>
+                    <div class="applicant-list-wrapper">
+                        <span>John</span>
+                    </div>
+                </div>
+                <div class="button-container">
+                    <div id="show-results">Get the loser</div>
+                </div>
+            </div>
+
+            <!-- Results screen -->
+            <div class="results-container hidden">
+                <h1>The loser is:</h1>
+                <div class="result">
+                    <h3>John</h3>
+                </div>
+
+                <div class="results-action">
+                    <div class="run-again">Run it again</div>
+                    <div class="start-again">Start again</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
