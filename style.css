@@ -97,10 +97,9 @@ input:focus {
     background: #B8B8B8;
 }
 
-.duplicate {
+.error {
     text-align: center;
     color: darkred;
-    display: none;
 }
 
 /* ======================
